@@ -1,15 +1,12 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 @font-face {
-  font-family: 'FonteLogo';
-  src: url("../_fonts/bubblegum-sans-regular.otf");
+     font-family: Titulos;
+     src: url('../fontes/ADAM.CG PRO.otf');
 }
 
-body {
-  font-family: Arial, sans-serif;
-  color: rgba(0,0,0,1);
+a{
+  text-decoration: none;
 }
-
 
 p{
   text-align: justify;
@@ -20,14 +17,19 @@ p{
 div#interface{
   background-color: #48D1CC;
   width: 100%;
-  height: 685px;
+  height: 1230px;
 }
 
 header#cabecalho{
   height: 50px;
-  background-color: rgb(244,244,244);
+  background-color: white;
   width: 100%;
   position: fixed;
+}
+
+header#cabecalho img{
+  height: 100px;
+  padding-left: 30px;
 }
 
 nav#menu ul{
@@ -40,12 +42,11 @@ nav#menu ul{
 
 nav#menu li{
   display: inline-block;
-  background-color: rgb(244,244,244);
+  background-color: white;
   padding: 12px;
   margin: 2px;
-  transition: background-color 1s;
-
   font-size: 13pt;
+  font-family: 'Titulos', sans-serif;
 }
 
 nav#menu h1{
@@ -54,16 +55,14 @@ nav#menu h1{
 
 nav#menu a {
   color: gray;
-  text-decoration: none;
 }
 
 nav#menu a:hover {
-  text-decoration: underline;
   color: #691065;
 }
 
 section#corpo{
-  height: 600px;
+  height: 650px;
   width: 100%;
   float: left;
   background: url(../img/fundo_corpo.png) no-repeat;
@@ -113,6 +112,61 @@ section#corpo a#botaop{
   padding: 10px;
 }
 
+section#quemsomos{
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 490px;
+  float: left;
+  font-family: 'Titulos', sans-serif;
+  border-bottom: 5px solid white;
+}
+
+section#quemsomos h1{
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30pt;
+}
+
+section#quemsomos p.titulo{
+  text-align: center;
+  text-indent: 5px;
+  padding-top: 10px;
+  padding-left: -30px;
+  color: gray;
+}
+section#quemsomos figure.galeria{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  left: 30%;
+  margin: 20px 100px 0px 25px;
+  display: inline-block;
+}
+
+section#quemsomos img{
+  width: 100%;
+}
+
+section#quemsomos p.legenda{
+  font-size: 11pt;
+  color: gray;
+  padding-top: 20px;
+  padding-left: 10%;
+  text-align: center;
+  width: 80%;
+}
+
+section#contato{
+
+}
+
+section#trabelheconosco{
+
+}
+
 footer.rodape{
   clear: both;
   width: 100%;
@@ -122,7 +176,7 @@ footer.rodape{
 }
 
 footer#rodape1{
-    background-color: rgb(244,244,244);
+    background-color: white;
 }
 
 footer#rodape2{
@@ -134,28 +188,22 @@ footer ul{
   float: left;
   position:relative;
   left: 36%;
-
 }
 
 footer.rodape li{
-  display: inline;
-  font-family: 'FonteLogo', sans-serif;
+  display: inline-block;
+  font-family: 'Titulos', sans-serif;
   font-size: 11pt;
-  cursor: pointer;
   color: gray;
+  padding-right: 50px;
+}
+
+footer.rodape li:hover{
+  color: #691065;
 }
 
 footer#rodape2 li{
-  padding-left: 50px;
-}
-
-footer#rodape1 li.liespaço{
-  padding-left: 70px;
-}
-
-footer li:hover{
-  text-decoration: underline;
-  color: black;
+  padding-left: 20px;
 }
 
 footer#rodape2 img{
