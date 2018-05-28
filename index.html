@@ -16,6 +16,8 @@
       <nav id="menu">
         <img src="img/logo.png" alt="Logotipo" />
         <ul>
+          <li><a href="#Aquemsomos">Quem Somos</a></li>
+          <li><a href="#Acontato">Contato</a></li>
           <li><a href="login.html">Login</a></li>
           <li><a href="cadastro.html">Cadastro</a></li>
         </ul>
@@ -35,7 +37,7 @@
       <h1>QUEM SOMOS</h1>
       <p class="titulo">GABRIEL OCZUST & NICOLLI PETRY- TI</p>
 
-        <figure class="galeria">
+        <figure class="galeria" id="Egaleria">
           <a href="https://www.facebook.com/gaboczust" target="_blank"><img src="img/gabriel.jpg" alt="Imagem Gabriel" /></a>
         </figure>
         <figure class="galeria">
@@ -57,7 +59,7 @@
       <div id="formcontato">
         <h1>ENTRE EM CONTATO</h1>
         <form method="post" id="fContato" action="mailto:gabriel.oczust@gmail.com">
-          <p class="pContato"><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" /></p>
+          <p class="pContato"><input type="text" name="tNome" id="cNome" size="20" maxlength="64" placeholder="Nome Completo" /></p>
           <p><input type="email" name="tMail" id="cMail" size="30" maxlength="64" placeholder="E-mail"/></p>
           <p class="pMsg"><textarea id="cMsg" name="tMsg" cols="75" rows="8" placeholder="Mensagem"></textarea></p>
           <input type="submit" name="tEnviar" class="enviar" value="Enviar"></input>
@@ -66,21 +68,14 @@
     </section>
 
     <section id="trabelheconosco">
-
+      <img src="img/trabalheconosco.jpg" alt="Trabalhe Conosco">
     </section>
 
-    <footer class="rodape" id="rodape1">
-      <ul id="lista_informaçoes">
-        <a href="#Aquemsomos"><li>Quem Somos</li></a>
-        <a href="#Acontato"><li class="liespaço">Contato</li></a>
-        <a href="#Atrabalheconosco"><li class="liespaço">Trabalhe Conosco</li></a>
-      </ul>
-    </footer>
-    <footer class="rodape" id="rodape2">
+    <footer class="rodape">
       <ul id="lista_redesocias">
-        <li>Facebook</li>
-        <li>Twitter</li>
-        <li>Instagram</li>
+        <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Icone Facebook"/><li>Facebook</li></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Icone Twitter"/><li>Twitter</li></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Icone Instagram"/><li>Instagram</li></a>
       </ul>
     </footer>
   </div>
