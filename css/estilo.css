@@ -9,9 +9,8 @@ a{
 }
 
 div#interface{
-  background-color: #48D1CC;
   width: 100%;
-  height: 3140px;
+  height: 100%;
 }
 
 header#cabecalho{
@@ -22,8 +21,9 @@ header#cabecalho{
 }
 
 header#cabecalho img{
-  height: 100px;
-  padding-left: 30px;
+  padding-left: 2%;
+  height: 130px;
+  width: 130px;
 }
 
 nav#menu ul{
@@ -56,12 +56,11 @@ nav#menu a:hover {
 }
 
 section#corpo{
-  height: 785px;
+  height: 700px;
   width: 100%;
   float: left;
-  background: url(../img/fundo_corpo.png) no-repeat;
+  background: url("../img/spoke2.png") repeat;
   background-position: center;
-  border-bottom: 10px solid rgb(244,244,244);
 }
 
 section#corpo h1{
@@ -107,12 +106,11 @@ section#corpo a#botaop{
 }
 
 section#quemsomos{
-  background: url("../img/quemsomos2.jpg");
+  background: url("../img/fundo_quemsomos.png") no-repeat;
   width: 100%;
-  height: 780px;
+  height: 720px;
   float: left;
   font-family: 'Titulos', sans-serif;
-  border-bottom: 5px solid white;
 }
 
 section#quemsomos h1{
@@ -155,10 +153,10 @@ section#quemsomos p.legenda{
 
 section#contato{
   width: 100%;
-  height: 800px;
+  height: 700px;
   float: left;
   /*background-color: #008B8B;*/
-  background: url("../img/fundocontato.png");
+  background: url("../img/fundo_contato.png");
 }
 
 section#contato div#infocontato{
@@ -185,6 +183,11 @@ section#contato div#infocontato p{
     padding-top: 15px;
     text-align: left;
     padding-left: 50px;
+}
+
+section#contato div#infocontato img{
+  height: 150px;
+  padding-left: 20%;
 }
 
 section#contato div#formcontato{
@@ -229,7 +232,7 @@ section#contato div#formcontato textarea{
   border-radius: 20px 20px;
   overflow: hidden;
   text-indent: 20px;
-  padding-top: 10px;
+  padding-top: 10px;3
   width: 85%;
   font-size: 15pt;
   font-family: 'Titulos', Arial;
@@ -255,19 +258,6 @@ input.enviar {
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	border: 0px solid #f2f5f5;
-}
-
-section#trabelheconosco{
-  width: 100%;
-  height: 700px;
-  border-bottom: 10px solid white;
-  border-top: 10px solid white;
-  float: left;
-}
-
-section#trabelheconosco img{
-  width: 100%;
-  height: 100%;
 }
 
 footer.rodape{

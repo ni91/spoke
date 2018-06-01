@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+     font-family: Titulos;
+     src: url('../fontes/ADAM.CG PRO.otf');
+}
+
+div#interface{
+  background: white;
+  font-family: 'Titulos', Arial;
+  background-color: lightgray;
+}
+
+nav#menu{
+  height: 50px;
+}
+
+section#beneficios{
+  height: 555px;
+  padding-top: 80px;
+  width: 50%;
+  float: left;
+}
+
+section#beneficios h1{
+  font-size: 20pt;
+  float: left;
+  padding-left: 20%;
+  color: black;
+  padding-top: 100px;
+}
+
+section#beneficios ul{
+  float: left;
+  padding: 30px 100px;
+}
+
+section#beneficios li{
+  padding: 30px;
+  color: black;
+}
+
+section.cadastro{
+  height: 555px;
+  padding-top: 80px;
+  width: 50%;
+  float: right;
+}
+
+section.cadastro legend#topo{
+  display: inline-block;
+  text-transform: uppercase;
+  color: #302f31;
+  margin: 10px 35%;
+  font-size: 25PT;
+  font-family: 'Titulos', Arial;
+}
+
+section.cadastro p{
+  margin: 30px 0px 30px 30px;
+}
+
+section.cadastro p.line{
+display: inline;
+}
+
+
+section.cadastro input#cLogin, input#cEMail, input#cNome{
+  border-radius: 40px 40px;
+  overflow: hidden;
+  height: 50px;
+  width: 600px;
+  text-indent: 10px;
+  font-family: 'Titulos', Arial;
+  font-size: 16PT;
+}
+
+section.cadastro input#cSenha, input#cdSenha{
+  border-radius: 40px 40px;
+  overflow: hidden;
+  height: 50px;
+  width: 280px;
+  text-indent: 10px;
+  font-family: 'Titulos', Arial;
+  font-size: 15PT;
+}
+
+section.cadastro select{
+  float: right;
+  height: 50px;
+  margin: 20px 50px;
+  border-radius: 40px 40px;
+  overflow: hidden;
+  font-family: 'Titulos', Arial;
+  font-size: 13PT;
+  width: 300px;
+  text-indent: 10px;
+  color: gray;
+}
+
+section.cadastro legend#tipo{
+  text-transform: uppercase;
+  color: #302f31;
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 19PT;
+  font-family: 'Titulos', Arial;
+  float: left;
+}
+
+section.cadastro label{
+  font-family: 'Titulos', Arial;
+  font-size: 15PT;
+  position: absolute;
+  padding-top: 30px;
+}
+
+input[type=submit]{
+  margin-right: 40%;
+}
+
+
+section.login {
+  height: 490px;%;
+  padding-top: 150px;
+  background-color: lightgray;
+  padding-left: 25%;
+}
+section.login input#cLogin, input#cSenha{
+  border-radius: 40px 40px;
+  overflow: hidden;
+  height: 50px;
+  width: 600px;
+  text-indent: 10px;
+  font-family: 'Titulos', Arial;
+  font-size: 16PT;
+}
+
+section.login p{
+  padding: 25px;
+}
+
+section.login h5{
+  display: inline;
+  padding-left: 40px;
+  float: left;
+  margin-top: 20px;
+}

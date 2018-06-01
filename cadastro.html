@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Cadastro | Spoke</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script language="javascript" src="javascript/funcoes.js"></script>
+</head>
+
+<body>
+  <div id="interface">
+
+    <header id="cabecalho">
+      <nav id="menu">
+        <img src="img/logo.png" alt="Logotipo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+
+      </nav>
+    </header>
+    <section id="beneficios">
+        <h1>Beneficios de ter um Cadastro</h1>
+        <ul>
+          <li>Salve seus Orçamentos</li>
+          <li>Acesse-os de qualquer lugar</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+        </ul>
+    </section>
+    <section class="cadastro">
+      <form method="post" id="fContato">
+
+        <fieldset id="usuario">
+          <legend id="topo">CADASTRO</legend>
+          <p><input type="text" name="tLogin" id="cLogin" maxlength="12" placeholder="Login" /></p>
+          <p class="line"><input type="password" name="tSenha" id="cSenha" maxlength="16" placeholder="Senha" /></p>
+          <p class="line"><input type="password" name="tdSenha" id="cdSenha" maxlength="16" placeholder="Confirmação de Senha" /></p>
+        </fieldset>
+        <fieldset id="info">
+          <legend id="tipo">Tipo de Pessoa</legend>
+          <select>
+            <option value="Juridica">Jurídica</option>
+            <option value="Fisica">Física</option>
+          </select>
+          <p><input type="text" name="tNome" id="cNome" maxlength="64" placeholder="Nome" /></p>
+          <p><input type="email" name="tEMail" id="cEMail" maxlength="64" placeholder="E-mail" /></p>
+        </fieldset>
+        <input type="submit" name="tEnviar" class="enviar" value="Cadastrar"></input>
+      </form>
+    </section>
+
+    <footer class="rodape">
+      <ul id="lista_redesocias">
+        <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Icone Facebook"/><li>Facebook</li></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Icone Twitter"/><li>Twitter</li></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Icone Instagram"/><li>Instagram</li></a>
+      </ul>
+    </footer>
+  </div>
+
+</body>
+
+</html>
