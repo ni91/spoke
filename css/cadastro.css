@@ -8,21 +8,20 @@ div#interface{
   background: white;
   font-family: 'Titulos', Arial;
   background-color: lightgray;
-  height: 100%;
 }
 
 section#beneficios{
   padding-top: 4%;
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 section#beneficios h1{
   font-size: 20pt;
   float: left;
-  padding-left: 20%;
+  padding-left: 19%;
   color: black;
-  padding-top: 100px;
+  padding-top: 17%;
 }
 
 section#beneficios ul{
@@ -37,7 +36,7 @@ section#beneficios li{
 
 section.cadastro{
   padding-top: 6%;
-  width: 50%;
+  width: 60%;
   float: right;
 }
 
@@ -48,6 +47,10 @@ section.cadastro legend#topo{
   margin: 1% 35%;
   font-size: 25PT;
   font-family: 'Titulos', Arial;
+}
+
+section.cadastro legend#topo:hover{
+  color: #008B8B;
 }
 
 section.cadastro p{
@@ -66,7 +69,7 @@ section.cadastro input#cLogin, input#cEMail, input#cNome{
   width: 80%;
   text-indent: 10px;
   font-family: 'Titulos', Arial;
-  font-size: 16PT;
+  font-size: 14PT;
 }
 
 section.cadastro input#cSenha, input#cdSenha{
@@ -76,7 +79,7 @@ section.cadastro input#cSenha, input#cdSenha{
   width: 36%;
   text-indent: 10px;
   font-family: 'Titulos', Arial;
-  font-size: 15PT;
+  font-size: 14PT;
 }
 
 section.cadastro select{
@@ -109,20 +112,25 @@ section.cadastro label{
   padding-top: 3%;
 }
 
-input[type=submit]{
-  margin-top: 0;
-  margin-right: 45%;
+input.cadastrar{
+  padding: 2% 3%;
+  margin: -1% 45% 2% 0%;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* === LOGIN === */
 
-.corpo_login{
-  height: 620px;
+.ahover a:hover{
+  color: #008B8B;
+}
+
+.ahover a{
+  color: #000;
 }
 
 section.login {
-  padding-top: 10%;
-  padding-left: 30%;
+  padding: 15% 0% 10% 30%;
 }
 
 section.login input#cLogin, input#cSenha{
@@ -141,19 +149,29 @@ section.login p{
 
 section.login h5{
   display: inline;
-  padding-left: 3%;
+  padding-left: 4%;
   float: left;
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.copyright{
-  width: 100%;
-  background-color: rgb(230,230,230);
-}
-
-.copyright h2{
-  text-align: center;
-  padding: 1%;
-  font-size: 14pt;
-  color: gray;
+.logar{
+  cursor: pointer;
+  font-family: 'Titulos',Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 20%;
+  padding: 1% 3%;
+  background: -moz-linear-gradient(
+    top,
+   white 0%,
+    #red);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(white),
+    to(#cfc9b8));
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  border: 0px solid #f2f5f5;
 }

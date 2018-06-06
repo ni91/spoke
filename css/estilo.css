@@ -10,7 +10,6 @@ a{
 
 div#interface{
   width: 100%;
-  height: 100%;
 }
 
 header#cabecalho{
@@ -20,11 +19,15 @@ header#cabecalho{
   position: fixed;
 }
 
+/* === LOGO === */
+
 header#cabecalho img{
   padding-left: 2%;
   height: 7%;
   width: 7%;
 }
+
+/* === MENU OPÇOES === */
 
 nav#menu ul{
   position: relative;
@@ -55,13 +58,15 @@ nav#menu a:hover {
   color: #008B8B;
 }
 
+/* === CORPO PRODUTO SERVIÇO === */
+
 section#corpo{
-  height: 800px;
   width: 100%;
   float: left;
-  background: url("../img/spoke2.png") no-repeat;
-  background-size: 100%;
-  background-position: center;
+  clear: both;
+  height: 650px;
+  background: url("../img/spoke2.png") no-repeat 100% 100%;
+
 }
 
 section#corpo h1{
@@ -105,6 +110,8 @@ section#corpo a#botaop{
   margin-left: 37%;
   padding: 10px;
 }
+
+/* === QUEM SOMOS === */
 
 section#quemsomos{
   background: url("../img/fundo_quemsomos.png") no-repeat;
@@ -153,6 +160,8 @@ section#quemsomos p.legenda{
   padding-top: 5%;
 }
 
+/* === CONTATO === */
+
 section#contato{
   width: 100%;
   height: 700px;
@@ -193,11 +202,12 @@ section#contato div#infocontato img{
   padding-left: 20%;
 }
 
+/* === FORMULARIO CONTATO === */
+
 section#contato div#formcontato{
   float: left;
   height: 100%;
   width: 55%;
-  position: relative;
 }
 
 section#contato div#formcontato h1{
@@ -263,6 +273,8 @@ input.enviar {
 	border: 0px solid #f2f5f5;
 }
 
+/* === RODAPE REDES SOCIAS === */
+
 footer.rodape{
   clear: both;
   width: 100%;
@@ -296,4 +308,43 @@ footer.rodape img{
   position: absolute;
   top: 19%;
   margin-left: -8%;
+}
+
+/* === RODAPE COPYRIGHT === */
+
+.copyright{
+  width: 100%;
+  background-color: rgb(230,230,230);
+  float: right;
+  font-family: 'Titulos', sans-serif;
+  padding-bottom: 1%;
+}
+
+.copyright li{
+  display: inline;
+  font-size: 13pt;
+}
+
+.copyright li:nth-child(1){
+  padding-left: 41%;
+}
+
+.copyright li:nth-child(2){
+  padding-left: 6%;
+}
+
+.copyright h2{
+  text-align: center;
+  padding: 1%;
+  font-size: 10pt;
+  color: gray;
+  float: right;
+}
+
+.ahover a:hover{
+  color: #008B8B;
+}
+
+.ahover a{
+  color: black;
 }
