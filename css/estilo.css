@@ -23,8 +23,8 @@ header#cabecalho{
 
 header#cabecalho img{
   padding-left: 2%;
-  height: 7%;
-  width: 7%;
+  height: 4%;
+  width: 4%;
 }
 
 /* === MENU OPÇOES === */
@@ -134,7 +134,7 @@ section#quemsomos p.titulo{
   text-indent: 5px;
   padding-top: 10px;
   padding-left: -30px;
-  color: #5C3317;
+  color: black;
   font-size: 20pt;
 }
 section#quemsomos figure.galeria{
@@ -179,10 +179,11 @@ section#contato div#infocontato{
 }
 
 section#contato div#infocontato h5{
-    color: white;
+    color: rgb(72, 88, 120);
     padding-left: 50px;
     font-size: 15pt;
     padding-top: 10%;
+    font-weight: bolder;
 }
 
 section#contato div#infocontato h5.hespaço{
@@ -211,10 +212,11 @@ section#contato div#formcontato{
 }
 
 section#contato div#formcontato h1{
-  color: white;
-  text-align: center;
+  color: rgb(72, 88, 120);
+  font-weight: bolder;
+  padding-left: 23%;
   font-family: 'Titulos', Arial;
-  padding-top: 7%;
+  padding-top: 7%; 
   font-size: 40pt;
 }
 
@@ -257,7 +259,7 @@ input.enviar {
 	font-family: 'Titulos',Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	color: #000000;
-  margin: 3% 9% 2% 0%;
+  margin: 3% 0% 2% 0%;
 	padding: 1% 3%;
 	background: -moz-linear-gradient(
 		top,
@@ -315,30 +317,29 @@ footer.rodape img{
 .copyright{
   width: 100%;
   background-color: rgb(230,230,230);
-  float: right;
+  float: left;
   font-family: 'Titulos', sans-serif;
   padding-bottom: 1%;
 }
 
 .copyright li{
+  display: block;
+  font-size: 10pt;
+  padding-bottom: 2%;
+}
+
+.copyright ul{
+  float: right;
   display: inline;
-  font-size: 13pt;
-}
-
-.copyright li:nth-child(1){
-  padding-left: 41%;
-}
-
-.copyright li:nth-child(2){
-  padding-left: 6%;
+  padding-right: 3%;
+  margin-top: -2%;
 }
 
 .copyright h2{
-  text-align: center;
-  padding: 1%;
   font-size: 10pt;
   color: gray;
-  float: right;
+  text-align: center;
+  margin: 0% 0% 0% 2%;
 }
 
 .ahover a:hover{
