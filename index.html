@@ -16,7 +16,7 @@
 
     <header id="cabecalho">
       <nav id="menu">
-        <img src="img/logo.png" alt="Logotipo" />
+        <!-- <img src="img/logo.png" alt="Logotipo" /> -->
         <ul>
           <li><a href="login.html">Login</a></li>
           <li><a href="cadastro.html">Cadastre-se</a></li>
@@ -28,8 +28,11 @@
     <section id="corpo">
       <h1>Calcule orçamentos de Produtos e Serviços</h1>
       <h2>e acesse-os de qualquer dispositivo</h2>
-      <a id="botaop" href="produtos.html" target="_blank"><input type="button" name="botao_produto" value="Produtos" id="botao_produto"></a>
-      <a href="serviços.html" target="_blank"><input type="button" name="botao_serviços" value="Serviços" id="botao_serviço"></a>
+      <div class="btm_ps">
+        <a  href="produtos.html"><input type="button" name="botao_produto" value="Produtos" id="botao_produto"></a>
+        <a href="serviços.html"><input type="button" name="botao_serviços" value="Serviços" id="botao_serviço"></a>
+      </div>
+      <img src="img/corpo.png" alt="Imagem Fundo Produto e Serviço"/>
     </section>
 
     <a name="Aquemsomos"></a>
@@ -48,7 +51,7 @@
         <p class="legenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         <figure class="galeria">
-          <a href="" target="_blank"><img src="img/interrogaçao.png" alt="" /></a>
+          <a href="" target="_blank"><img src="img/logo.png" alt="Logo da Empresa" /></a>
         </figure>
         <p class="legenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
@@ -79,19 +82,16 @@
     </section>
 
     <footer class="rodape">
-      <ul id="lista_redesocias">
-        <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Icone Facebook"/><li>Facebook</li></a>
-        <a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="Icone Twitter"/><li>Twitter</li></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Icone Instagram"/><li>Instagram</li></a>
+      <ul class="icons">
+        <li><a href="https://www.facebook.com/" target="_blank"/><img src="img/facebook.png" alt="Icone Facebook"/></a></li>
+        <li><a href="https://www.twitter.com/" target="_blank"/><img src="img/twitter.png" alt="Icone Twitter"/></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"/><img src="img/instagram.png" alt="Icone Instagram"/></a></li>
       </ul>
-    </footer>
-    <footer class="copyright ahover">
-        <h2>Copyright © 2018. All Rights Reserved By Spoke</h2>
-        <ul>
-          <li><a href="#Aquemsomos">Quem Somos</a></li>
-          <li><a href="#Acontato">Contato</a></li>
-        </ul>
-
+      <h2 class="copyright">Copyright © 2018. All Rights Reserved By Spoke</h2>
+      <ul class="copyright ahover">
+        <li><a href="#Aquemsomos">Quem Somos</a></li>
+        <li><a href="#Acontato">Contato</a></li>
+      </ul>
     </footer>
   </div>
 </body>
