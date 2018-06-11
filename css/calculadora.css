@@ -42,17 +42,17 @@ header#cabecalho{
   margin-right: auto;
 }
 
+.despesas{
+  display: inline-block;
+  margin-left: 6%;
+}
+
 legend{
   text-align: center;
   text-indent: 1%;
   color:  #fff;
   font-size: 14pt;
   padding-top: 3%;
-}
-
-fieldset.despesas{
-  display: inline-block;
-  padding: 0.5% 1% .5% 1%;
 }
 
 input{
@@ -64,16 +64,16 @@ input{
   font-size: 13pt;
   text-align: center;
 }
-input.radiusleft{border-radius: 25px 5px 5px 5px;}
-input.radiusright{border-radius: 5px 25px 5px 5px;}
 
 input.calcular{
   cursor: pointer;
-  clear: left;
 	font-family: 'Titulos',Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	color: #000000;
-  margin: 3% 0% 3% 26%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
 	padding: 1% 3%;
 	background: -moz-linear-gradient(
 		top,

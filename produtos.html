@@ -31,31 +31,37 @@
     <div class="calculadora">
       <form class="calculadora_produto" action="">
         <fieldset>
-          <legend>Custo Unitário</legend>
-          <p><input type="number" name="" value="" placeholder="Ex: 20,00"></p>
-        </fieldset>
+          <fieldset>
+            <legend>Custo Unitário</legend>
+            <p><input type="number" name="" value="" placeholder="Ex: 20,00"></p>
+          </fieldset>
 
-        <fieldset class="despesas">
-          <legend>Despesas Fixas</legend>
-          <p><input type="number" name="" placeholder="Aluguel"></p>
-          <p><input type="number" name="" placeholder="Transporte"></p>
-          <p><input type="number" name="" placeholder="Água"></p>
-          <p><input type="number" name="" placeholder="Luz"></p>
-          <p><input type="number" name="" placeholder="Outros"></p>
-        </fieldset>
+          <fieldset class="despesas">
+            <legend>Despesas Fixas</legend>
+            <p><input type="number" name="dfAluguel" placeholder="Aluguel"></p>
+            <p><input type="number" name="dfTransporte" placeholder="Transporte"></p>
+            <p><input type="number" name="dfAgua" placeholder="Água"></p>
+            <p><input type="number" name="dfLuz" placeholder="Luz"></p>
+            <p><input type="number" name="dfOutros" placeholder="Outros"></p>
+          </fieldset>
 
-        <fieldset class="despesas">
-          <legend>Despesas Variáveis</legend>
-          <p><input type="number" name="" placeholder="Frete"></p>
-          <p><input type="number" name="" placeholder="Comissão de Vendas"></p>
-          <p><input type="number" name="" id="icms" placeholder="Alíquota Icms"></p>
-          <p><input type="number" name="" id="cofins" placeholder="Alíquota Cofins"></p>
-          <p><input type="number" name="" placeholder="Outros"></p>
-        </fieldset>
+          <fieldset class="despesas">
+            <legend>Despesas Variáveis</legend>
+            <p><input type="number" name="dvFrete" placeholder="Frete"></p>
+            <p><input type="number" name="dvComissao" placeholder="Comissão de Vendas"></p>
+            <p><input type="text" name="dvIcms" list="aliquotaIcms" placeholder="Alíquota Icms"></p>
+            <p><input type="number" name="dvCofins" placeholder="Alíquota Cofins"></p>
+            <p><input type="number" name="dvOutros" placeholder="Outros"></p>
+          </fieldset>
 
-        <fieldset>
-        <legend>Lucro Pretendido sobre o Preço de Venda</legend>
-        <p><input type="number" name="" placeholder="Ex: 10%"></p>
+          <datalist id="aliquotaIcms">
+            <option value="17%"><option value="18%"><option value="19%">
+          </datalist>
+
+          <fieldset>
+            <legend>Lucro Pretendido sobre o Preço de Venda</legend>
+            <p><input type="number" name="" placeholder="Ex: 10%"></p>
+          </fieldset>
         </fieldset>
         <input type="submit" name="tCalcular" class="calcular" value="Calcular"></input>
       </form>
@@ -63,9 +69,12 @@
   </div>
   <footer class="rodape">
     <ul class="icons">
-      <li><a href="https://www.facebook.com/" target="_blank"/><img src="img/facebook.png" alt="Icone Facebook"/></a></li>
-      <li><a href="https://www.twitter.com/" target="_blank"/><img src="img/twitter.png" alt="Icone Twitter"/></a></li>
-      <li><a href="https://www.instagram.com/" target="_blank"/><img src="img/instagram.png" alt="Icone Instagram"/></a></li>
+      <li><a href="https://www.facebook.com/" target="_blank" /><img src="img/facebook.png" alt="Icone Facebook" /></a>
+      </li>
+      <li><a href="https://www.twitter.com/" target="_blank" /><img src="img/twitter.png" alt="Icone Twitter" /></a>
+      </li>
+      <li><a href="https://www.instagram.com/" target="_blank" /><img src="img/instagram.png" alt="Icone Instagram" /></a>
+      </li>
     </ul>
     <h2 class="copyright">Copyright © 2018. All Rights Reserved By Spoke</h2>
     <ul class="copyright ahover">
@@ -74,6 +83,7 @@
     </ul>
   </footer>
 </body>
+
 </html>
 
 <!-- formula| custo unitario / 100% - (%DV + %DF + %ML) = Preço de venda -->
