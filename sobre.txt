@@ -1,0 +1,11 @@
+ <p class="legenda"> Desenvolvedor de WEB - com especialização em sites responsivos, atua no mercado há 2 anos, possui experiência em programação C#, e linguagem JavaScript. Trabalhou na TOTVS por 3 anos,no setor de desenvolvimento web. </p>
+
+        <figure class="galeria">
+          <a href="https://www.facebook.com/nicolli.petry" target="_blank"><img src="img/nicolli.jpg" alt="Imagem Nicolli" /></a>
+        </figure>
+        <p class="legenda"> Analista de negócios, atua no mercado há 4 anos, possui experiência em gestão de tecnologia da informação, onde atuou em startups e pequenas empresas. </p>
+
+        <figure class="galeria">
+          <a href="" target="_blank"><img src="img/logo.png" alt="" /></a>
+        </figure>
+        <p class="legenda">A SPOKE desenvolveu a calculadora de orçamentos através da necessidade de atender a demanda de produtos e serviços, que necessitam de precificação baseados em cálculos com estimativa de lucros. Pensando em você microempreendedor e pessoa física, nós desenvolvemos uma calculadora de fácil acesso e de simples entendimento, que guarda as suas informações, como orçamentos, em um banco de dados, que podem ser acessados de qualquer lugar por meio de seu login e senha. Através da função relatório, imprime na tela o resumo de lucro, custo fixo e variável do mês que foi calculado pelo usuário</p>
